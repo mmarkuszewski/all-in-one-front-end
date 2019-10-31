@@ -10,7 +10,7 @@ const ListWrapper = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   
-  background-color: #003366;
+  
   height: 100vh;
 `
 

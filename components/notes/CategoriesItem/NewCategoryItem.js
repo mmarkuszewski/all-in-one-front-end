@@ -58,7 +58,7 @@ class NewCategoryItem extends React.Component{
                          onClick={(e) => e.stopPropagation()}/>
         </form>
         <br/>
-        <FontAwesomeIcon icon={faPlus} size="2x"/>
+        <FontAwesomeIcon icon={faPlus} size="2x" width="0"/>
       </CategoryButton>
     )
   }

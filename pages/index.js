@@ -8,14 +8,16 @@ const GlobalStyle = createGlobalStyle`
   body{
     margin: 0;
     padding: 0;
+    background-color: #003366;
   }
 `;
 
 const IndexPage = (props) => (
     <>
-      <GlobalStyle/>
+      {/*<GlobalStyle/>*/}
       <CategoriesList categories={props.categories}/>
     </>
+
 );
 
 IndexPage.getInitialProps = async function() {
